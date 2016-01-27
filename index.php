@@ -12,21 +12,9 @@
   </head>
 
   <body id="home">
-        <header>
-  <div class="row clearfix">
+        
+      <?php include('header.php');?>
 
-    <!-- Our Logo -->
-    <a href="index.html"><img class="logo" src="img/logo.png"/></a>
-
-    <!-- Our Site Navigation -->
-         <nav>
-              <a href="index.html">Home</a>
-              <a href="about.html">About</a>
-              <a href="contact.html">Contact</a>
-         </nav>
-
-        </div>
-        </header>
   <!-- Content goes here -->
       <main>
       
@@ -37,7 +25,6 @@
             </div>
           </div>
       
-      </main> 
 
       <!-- A row of two 1/2 width columns -->
       <div class="row clearfix">
@@ -52,17 +39,9 @@
         </div>
       </div>
 
-      
-      <footer>
-  <!-- Our Site Navigation -->
-            <nav>
-              <a href="index.html">Home</a>
-              <a href="about.html">About</a>
-              <a href="contact.html">Contact</a>
-            </nav>
+    </main> 
 
-  <!-- Site Copyright -->
-      <p>Copyright 2016 - Edgar Montes</p>
-      </footer>
+          <?php include('footer.php');?>
+
   </body>
 </html>

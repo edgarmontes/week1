@@ -29,6 +29,10 @@ a:hover {
   color: #FB8B6F;
 }
 
+iframe{
+    max-width: 100%;
+}
+
 /* Columns & Row */
 .row {
   width: 90%;
@@ -117,7 +121,29 @@ footer {
 .hero h1 {
   margin: 0;
   padding: 120px 0;
-  color: white;
+  color: ivory;
   text-shadow: 0 0 10px #444;
   text-align: center;
+}
+
+/* Responsive */
+@media (max-width: 500px) {
+  header {
+    text-align: center;
+  }
+
+  .logo {
+    float: none;
+    width: 80px;
+  }
+
+  header nav {
+    float: none;
+    text-align: center;
+  }
+
+  .column {
+    width: 100% !important;/*what this does ? */
+    margin-right: 0;
+  }
 }
